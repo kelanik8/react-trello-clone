@@ -51,31 +51,55 @@ const appData: AppState = {
   lists: [
     {
       id: "0",
-      text: "To Do",
+      text: "Board 1",
       tasks: [
         {
-          id: "c0",
-          text: "Generate app Scaffold",
+          id: "a0",
+          text: "Task 1",
+        },
+        {
+          id: "a1",
+          text: "Task 2",
+        },
+        {
+          id: "a2",
+          text: "Task 3",
         },
       ],
     },
     {
       id: "1",
-      text: "In Progress",
+      text: "Board 2",
       tasks: [
         {
-          id: "c1",
-          text: "Learn Typescript",
+          id: "b0",
+          text: "Task 1",
+        },
+        {
+          id: "b1",
+          text: "Task 2",
+        },
+        {
+          id: "b2",
+          text: "Task 3",
         },
       ],
     },
     {
       id: "2",
-      text: "Done",
+      text: "Board 3",
       tasks: [
         {
-          id: "c3",
-          text: "Begin to use static typing",
+          id: "c0",
+          text: "Task 1",
+        },
+        {
+          id: "c1",
+          text: "Task 2",
+        },
+        {
+          id: "c2",
+          text: "Task 3",
         },
       ],
     },

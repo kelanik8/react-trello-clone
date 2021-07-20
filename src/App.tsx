@@ -1,7 +1,6 @@
-import React, { useReducer } from "react";
+import React from "react";
 import { AppContainer } from "./styles/styles";
 import { Column } from "./components/Column";
-import { Card } from "./components/Card";
 import { AddNewItem } from "./components/AddNewItem";
 import { useAppState } from "./context/AppStateContext";
 import { CustomDragLayer } from "./components/CustomDragLayerContainer";
@@ -13,17 +12,6 @@ interface State {
 }
 
 type Action = { type: "increment" } | { type: "decrement" };
-
-const counterReducer = (state: State, action: Action) => {
-  switch (action.type) {
-    case "increment":
-      return { count: state.count + 1 };
-    case "decrement":
-      return { count: state.count - 1 };
-    default:
-      throw new Error();
-  }
-};
 
 function App() {
   // const [state, dispatch] = useReducer(counterReducer, { count: 0 });
